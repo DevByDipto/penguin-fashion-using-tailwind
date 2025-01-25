@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <style>
+        .bebas-neue-font {
+            font-family: "Bebas Neue", serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .roboto-font {
+            font-family: "Roboto", serif;
+            font-optical-sizing: auto;
+            font-weight: 400;
+            font-style: normal;
+            font-variation-settings:
+                "wdth" 100;
+        }
+    </style>
+</head>
+
+
+<body class="roboto-font">
+    <header class="px-[17px] bg-[#FFFBF0]">
+        <nav class="flex items-center justify-between pt-[27px] max-w-[1170px] m-auto sm:py-[40]">
+            <div class="max-w-[192px] max-h-[26px] sm:max-w-[291px] max-h-[40px]">
+                <img class="w-full h-full" src="./icons/logo.png" alt="">
+            </div>
+            <ul class="hidden sm:flex sm:block sm:gap-[57px] ">
+                <li class="sm:text-[#3C3C3C] sm:font-medium"><a href=""></a>Home</li>
+                <li class="sm:text-[#3C3C3C] sm:font-medium"><a href=""></a>Product</li>
+                <li class="sm:text-[#3C3C3C] sm:font-medium"><a href=""></a>About us</li>
+                <li class="sm:text-[#3C3C3C] sm:font-medium"><a href=""></a>Contact us</li>
+            </ul>
+            <div class="sm:hidden"><i class="fa-solid fa-bars text-[30px]"></i></div>
+        </nav>
+        <!-- banner part start -->
+        <section class="pt-[52px] pb-[45px] sm:pt-[0px] pb-[130px] max-w-[1170px] m-auto sm:flex sm:items-center sm:gap-[183px]">
+            <div>
+                <h1 class="bebas-neue-font max-w-[312px] text-6xl text-[#363958] sm:text-[80px] sm:max-w-[416px]">
+                    <span class="text-[#FABE4C]">Be the Penguins</span> of Winter</h1>
+                <p class="max-w-[295px] text-[#3E3E3E] leading-[26px] mb-[24px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <button class="text-[#FFFFFF] py-[18px] px-[33px] bg-red-500 rounded-[10px] bg-linear-to-r from-[#A4BC46] to-[#85A019]"><i class="fa-solid fa-cart-plus"></i> BUY NOW</button>
+            </div>
+           <div class="max-w-[361px] max-h-[368px] sm:max-w-[550px] max-h-[560px]">
+            <img class="w-full h-full" src="./images/model.png" alt="">
+           </div>
+        </section>
+    </header>
+
+</body>
+
+</html>
